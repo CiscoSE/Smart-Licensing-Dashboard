@@ -1,0 +1,746 @@
+{
+    "ACI Advantage License for 10+G Leaf": {
+        "architecture_1": "Data Center",
+        "architecture_2": "Virtualization"
+    },
+    "ACI Advantage License for 1G Leaf": {
+        "architecture_1": "Data Center",
+        "architecture_2": "Virtualization"
+    },
+    "ACI Base License for 10/25/40+G leaf ": {
+        "architecture_1": "Data Center",
+        "architecture_2": "Virtualization"
+    },
+    "ACI Essential License for 10+G Leaf": {
+        "architecture_1": "Data Center",
+        "architecture_2": "Virtualization"
+    },
+    "Aironet DNA Advantage Term Licenses": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "Aironet DNA Essentials Term Licenses": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "AP Perpetual Networkstack Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "ASAv10 Standard - 1G": {
+        "architecture_1": "Security",
+        "architecture_2": "Network Security"
+    },
+    "ASAv30 Standard - 2G": {
+        "architecture_1": "Security",
+        "architecture_2": "Network Security"
+    },
+    "ASR_1000_AdvEnterprise": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ASR_1000_fwnat_redundancy": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Boost Performance for ISR4321": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Boost Performance for ISR4331": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Boost Performance for ISR4431": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Boost Performance for ISR4451": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "C3650_24_Ipserv": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3650-DNA-A-24": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3650-DNA-A-48": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850_24_Ipserv": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850_48_Ipbase": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850_48_Ipserv": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850_XS_12_Ipbase": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850_XS_12_Lanbase": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850_XS_48_Ipserv": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850-DNA-A-24": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C3850-DNA-A-48": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C6500 Chassis DNA Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C6807-DNA-A": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200 DNA Advantage, 24-port Term licenses": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200 DNA Advantage, 48-port Term licenses": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200 DNA Essentials, 24-port Term licenses": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200 Network Advantage, 24-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200 Network Advantage, 48-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200 Network Essentials, 24-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L DNA Advantage, 24-port Term license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L DNA Advantage, 48-port Term license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L DNA Essentials, 24-port Term license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L Network Advantage, 24-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L Network Advantage, 48-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L Network Essentials, 24-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9200L Network Essentials, 48-port license": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 48P DNA Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 48P DNA Essentials": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 48P NW Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 48P NW Essentials": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 DNA Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 DNA Essentials": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300 Network Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9300L 48P Network Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9400 DNA Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9400 Network Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500 24Y4C DNA Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500 48Y4C DNA Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500 48Y4C NW Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500 Network Advantage": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500-DNA-12Q-A": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500-DNA-16X-A": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "C9500-DNA-40X-A": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "EN Switching"
+    },
+    "Cisco 1100 Series with 4 LAN Ports , 100 Mbps IPSEC Throughput License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 4 LAN Ports , Security License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 4 LAN Ports , Security License with No Payload Encryption": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 4 LAN Ports, AppX License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 4 LAN Ports, Cisco One Foundation Suite": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 8 LAN Ports, 200 Mbps IPSEC Throughput License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 8 LAN Ports, AppX License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 8 LAN Ports, Cisco One Foundation Suite": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 8 LAN Ports, Security License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco 1100 Series with 8 LAN Ports, Security License with No Payload Encryption": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco AnyConnect Plus License": {
+        "architecture_1": "Security",
+        "architecture_2": "Identity and Access"
+    },
+    "Cisco ASAv5": {
+        "architecture_1": "Security",
+        "architecture_2": "Network Security"
+    },
+    "Cisco DNA Spaces SEE": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Intent"
+    },
+    "Cisco Intersight Virtual Appliance - Essentials": {
+        "architecture_1": "Data Center",
+        "architecture_2": "0"
+    },
+    "Cisco ISE Virtual Machine Large": {
+        "architecture_1": "Security",
+        "architecture_2": "Identity and Access"
+    },
+    "Content Security Management Centralized Reporting": {
+        "architecture_1": "Security",
+        "architecture_2": "Security Management"
+    },
+    "Content Security Management Centralized Tracking": {
+        "architecture_1": "Security",
+        "architecture_2": "Security Management"
+    },
+    "Content Security Management Config Manager": {
+        "architecture_1": "Security",
+        "architecture_2": "Security Management"
+    },
+    "Content Security Management Master ISQ": {
+        "architecture_1": "Security",
+        "architecture_2": "Security Management"
+    },
+    "CSR 1KV APPX 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 2500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV APPX 5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 2.5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV AX 5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 10G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 2.5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV IP BASE 5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 2.5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR 1KV SECURITY 5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "CSR1Kv Universal PLR": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "DNA Advantage For SDWAN": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Automation"
+    },
+    "Firepower Threat Defense Base Features": {
+        "architecture_1": "Security",
+        "architecture_2": "Network Security"
+    },
+    "ISE Apex Session Licenses": {
+        "architecture_1": "Security",
+        "architecture_2": "Identity and Access"
+    },
+    "ISE Base Session Licenses": {
+        "architecture_1": "Security",
+        "architecture_2": "Identity and Access"
+    },
+    "ISE Plus License": {
+        "architecture_1": "Security",
+        "architecture_2": "Identity and Access"
+    },
+    "ISR_1100_2P_Application": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_1100_2P_FoundationSuite": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_1100_2P_HSEC": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_1100_2P_Security": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_1100_4P_Hsec": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_1100_8P_Hsec": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4321_100M_Performance": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4331_300M_Performance": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4331_FoundationSuite": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4331_Hsec": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4331_UnifiedCommunication": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4351_Security": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4400_Application": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4400_Hsec": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4400_Security": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4400_Security_NPE": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4400_UnifiedCommunication": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4431_1G_Performance": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISR_4451_2G_Performance": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPBase 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPBase 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "License tag for universal permanent license reservation for ISRv": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Mail Handling": {
+        "architecture_1": "Security",
+        "architecture_2": "Email Security"
+    },
+    "Maximum number of nodes entitled to TACACS+ transactions": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "0"
+    },
+    "NCS 560 Series IOS-XR Software K9 Tracking PID 6.6": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "NFVIS Base License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Prime Infrastructure 3.x, Assurance Lic.": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "Prime Infrastructure 3.x, Lifecycle Lic.": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "Threat Defense Virtual Threat Protection": {
+        "architecture_1": "Security",
+        "architecture_2": "Advanced Threat Security"
+    },
+    "UC Manager Basic License  (12.x)": {
+        "architecture_1": "Collaboration",
+        "architecture_2": "UC Infrastructure"
+    },
+    "UC Manager CUWL License (12.X)": {
+        "architecture_1": "Collaboration",
+        "architecture_2": "UC Infrastructure"
+    },
+    "UC Manager Enhanced License (12.x)": {
+        "architecture_1": "Collaboration",
+        "architecture_2": "UC Infrastructure"
+    },
+    "UC Manager Enhanced Plus License (12.x)": {
+        "architecture_1": "Collaboration",
+        "architecture_2": "UC Infrastructure"
+    },
+    "UC Manager Essential License (12.x)": {
+        "architecture_1": "Collaboration",
+        "architecture_2": "UC Infrastructure"
+    },
+    "UC Manager Telepresence Room License (12.x)": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "UC Infrastructure"
+    },
+    "Upgrade from 2.5 Gbps to 10Gbps License for ASR 1001-X": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Virtual WLC Access Point License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "WLC 5520 or WLC 8540 or WLC 3504 Access Point License": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    },
+    "ISRV APPX 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV APPX 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV APPX 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPB 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPBase 100M \t": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV SEC 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV Security 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV Security 1G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco ASAv10": {
+        "architecture_1": "Security",
+        "architecture_2": "Network Security"
+    },
+    "Cisco ASAv30": {
+        "architecture_1": "Security",
+        "architecture_2": "Network Security"
+    },
+    "ISRV APPX 2500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV APPX 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV APPX 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV APPX 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 100M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 10M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 2.5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPBase 2.5G": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPBase 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPBase 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV SEC 2500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV Security 250M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV Security 500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV Security 50M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV AX 2500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "ISRV IPB 2500M": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Routing"
+    },
+    "Cisco Intersight SaaS - Essentials": {
+        "architecture_1": "Data Center",
+        "architecture_2": "Compute"
+    },
+    "Prime Infrastructure 3.x, BASE Lic.": {
+        "architecture_1": "Enterprise Networking",
+        "architecture_2": "Wireless"
+    }
+}

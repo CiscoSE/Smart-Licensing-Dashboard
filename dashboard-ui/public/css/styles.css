@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.logo {
+      background-image: url(../img/logo.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top:68px;
+      margin-bottom:50px;
+      height:150px;
+   }
+
+.header-text {
+    font-size: 3res;
+    font-weight: 600;
+    padding: 10px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}

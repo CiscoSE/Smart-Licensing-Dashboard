@@ -1,0 +1,8 @@
+requests==2.21.0
+oauthlib==3.0.1
+requests_oauthlib==1.2.0
+flask==1.0.3
+flask-swagger-ui==3.20.9
+connexion==2018.0.dev1
+pandas==0.24.2
+redis==3.2.1

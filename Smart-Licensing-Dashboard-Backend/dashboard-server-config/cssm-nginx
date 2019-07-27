@@ -1,0 +1,22 @@
+server {
+    listen 10000 ssl;
+    server_name easysmartaccounts.com www.easysmartaccounts.com;
+ 
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/var/dashboard/cssm.sock;
+    }
+
+    root /var/dashboard;
+ 
+    location /js/ {
+    }
+
+    location /css/ {
+    }
+
+    location /img/ {
+    }
+
+
+}

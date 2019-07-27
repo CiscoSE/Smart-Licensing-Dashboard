@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "81fe44fd-be4b-444e-9152-2529da9addcf",
+		"name": "Smart Licensing Portal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "licenses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:5050/api/license",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"license"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

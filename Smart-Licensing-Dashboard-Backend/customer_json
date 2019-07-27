@@ -1,0 +1,21 @@
+{
+
+    "AT&T": {
+        "customer": "AT&T"
+    },
+    "ATT": {
+        "customer": "AT&T"
+    },
+    "BT": {
+        "customer": "BT"
+    },
+    "STARFLIGHT": {
+        "customer": "Starflight"
+    },
+    "cedge": {
+        "customer": "CEdge"
+    },
+    "IBM": {
+        "customer": "IBM"
+    }
+}

@@ -1,0 +1,178 @@
+openapi: "3.0.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+#consumes:
+#  - "application/json"
+#produces:
+#  - "application/json"
+
+servers:
+  - url: "/api"
+#basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /license:
+    get:
+      operationId: "slp_backend.read"
+      tags:
+        - "License"
+      summary: "Returns licenses for all SAs and VAs to which the user has access"
+      description: "Returns an object containing all license information available to a given user"
+      responses:
+        200:
+          description: "Successful read people list operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/License"
+
+  /userinfo/access-token:
+    get:
+      operationId: "slp_backend.get_access_token"
+      description: "Returns a json object containing the user's CSSM Access Token"
+      tags:
+        - "User Info Access Token"
+      parameters:
+        - in: query
+          name: roomId
+          description: "Webex Teams roomId"
+          schema:
+            type: string
+          required: true
+        - in: query
+          name: personId
+          description: "Webex Teams personId"
+          schema:
+            type: string
+          required: true
+        - in: header
+          name: X-SLD-BOT-Signature
+          schema:
+            type: string
+          required: true
+          description: Signature from the SLD BOT Client.  Use this to verify response.
+        - in: header
+          name: X-SLD-Date
+          schema:
+            type: string
+          required: true
+          description: Date stamp in the format of '%Y%m%dT%H%M%SZ'
+        - in: header
+          name: Content-Type
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK. A user's access token object. Use the X-SLD-Date and X-SLD-BE-Signature and the json body to verify/validate the response.
+          headers:
+            X-SLD-Date:
+              schema:
+                type: string
+              description: Date stamp in the format of '%Y%m%dT%H%M%SZ'
+            X-SLD-BE-Signature:
+              schema:
+                type: string
+              description: Signature from the SLD Backend server.  Use this to verify response.
+            Content-Type:
+              schema:
+                type: string
+              description: application/json
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  access_token:
+                    type: string
+                    description: The access Token
+        '400':
+          description: Bad request. roomId or personId must be a properly formatted string.
+        '401':
+          description: Authorization information is missing or invalid.
+        '404':
+          description: The user referred to by the personId and roomId cannot be found.
+        '5XX':
+          description: Unexpected error.
+
+components:
+  schemas:
+    License:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          accountName:
+            type: "string"
+          accountDomain:
+            type: "string"
+          accountStatus:
+            type: "string"
+          accountType:
+            type: "string"
+          roles:
+            type: "array"
+            items:
+              type: "object"
+              properties:
+                role:
+                  type: "string"
+                virtualAccount:
+                  type: "string"
+                licenses:
+                  type: "array"
+                  items:
+                    type: "object"
+                    properties:
+                      license:
+                        type: "string"
+                      virtualAccount:
+                        type: "string"
+                      quantity:
+                        type: "integer"
+                      inUse:
+                        type: "integer"
+                      available:
+                        type: "integer"
+                      status:
+                        type: "string"
+                      billingType:
+                        type: "string"
+                      ahaApps:
+                        type: "boolean"
+                      pendingQuantity:
+                        type: "integer"
+                      reserved:
+                        type: "integer"
+                      isPortable:
+                        type: "boolean"
+                      licenseDetails:
+                        $ref: "#/components/schemas/licenseDetails"
+                      licenseSubstitutions:
+                        type: "array"
+    licenseDetails:
+      type: "array"
+      items:
+        type: "object"
+        properties:
+          licenseType:
+            type: "string"
+            nullable: true
+          quantity:
+            type: "integer"
+          startDate:
+            type: "string"
+            nullable: true
+          endDate:
+            type: "string"
+            nullable: true
+          subscriptionId:
+            type: "string"
+            nullable: true
+          status:
+            type: "string"
+
+
