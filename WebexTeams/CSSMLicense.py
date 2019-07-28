@@ -382,7 +382,7 @@ class CSSMLicense(object):
 
             shortage_df = self.cssm_license_shortage_df()
 
-            self.__cssm_lice ///////////////////////nse_top_five_shortage = self.cssm_prepare_license_shortage_dict(shortage_df.head(5))
+            self.__cssm_license_top_five_shortage = self.cssm_prepare_license_shortage_dict(shortage_df.head(5))
 
     @logger_wraps()
     def cssm_virt_account_by_accountName(self):
