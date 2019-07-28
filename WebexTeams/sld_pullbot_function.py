@@ -396,6 +396,8 @@ def create_license_status_message(cssm_license):
     # Top five expired licenses first.
     expired_dict = cssm_license.cssm_top_five_expired_licenses()
 
+    if expired_dict==None:
+        expired_dict={}
     if len(expired_dict) > 0:
         msg = msg + '* [Top 5 Expired Licenses]({} "Expired License Link")\n'.format(be_login_url)
 
@@ -416,6 +418,8 @@ def create_license_status_message(cssm_license):
     # Top Five Future Expiring licenses
 
     future_expired_licenses = cssm_license.cssm_top_five_future_expired_licenses(expiration_days=180)
+    if future_expired_licenses==None:
+        future_expired_licenses={}
     logger.info('keys future_expired_licenses: {}'.format(future_expired_licenses.keys()))
     expired_dict = future_expired_licenses['future_expired_licenses']
     if len(expired_dict) > 0:
@@ -449,32 +453,32 @@ def create_license_status_message(cssm_license):
 
     # Top five license shortages.
     shortage_dict = cssm_license.cssm_license_top_five_shortage()
-    if shortage_dict != None:
-        if len(shortage_dict) > 0:
-            msg = msg + '* [Top 5 License Shortages]({} "License Shortage Link")\n'.format(be_login_url)
+    if shortage_dict == None:
+        shortage_dict={}
 
-            for accountName, virtualAccounts_dict in shortage_dict.items():
-                logger.info('accountName: {}'.format(accountName))
-                logger.info('shortage_virtualAccounts_dict: {}'.format(virtualAccounts_dict))
-                msg = msg + '    * **{}**\n'.format(accountName)
+    if len(shortage_dict) > 0:
+        msg = msg + '* [Top 5 License Shortages]({} "License Shortage Link")\n'.format(be_login_url)
 
-                for virtualAccount_name, licenses_list in virtualAccounts_dict.items():
-                    msg = msg + '        * {}\n'.format(virtualAccount_name)
-                    logger.info('licenses_list: {}'.format(licenses_list))
-                    for license_dict in licenses_list:
-                        logger.info('license_dict: {}'.format(license_dict))
-                        msg = msg + '            * {}, has a shortage of {} licenses\n'.format(license_dict['license'],
-                                                                                               license_dict['shortage'])
+        for accountName, virtualAccounts_dict in shortage_dict.items():
+            logger.info('accountName: {}'.format(accountName))
+            logger.info('shortage_virtualAccounts_dict: {}'.format(virtualAccounts_dict))
+            msg = msg + '    * **{}**\n'.format(accountName)
 
+            for virtualAccount_name, licenses_list in virtualAccounts_dict.items():
+                msg = msg + '        * {}\n'.format(virtualAccount_name)
+                logger.info('licenses_list: {}'.format(licenses_list))
+                for license_dict in licenses_list:
+                    logger.info('license_dict: {}'.format(license_dict))
+                    msg = msg + '            * {}, has a shortage of {} licenses\n'.format(license_dict['license'],
+                                                                                           license_dict['shortage'])
 
-        else:
-            msg = msg + '* [License Shortage: There are no license shortages]({} "License Shortage Link")\n'.format(be_login_url)
     else:
-        msg = msg + '* [License Shortage: There are no license shortages]({} "License Shortage Link")\n'.format(
-            be_login_url)
+        msg = msg + '* [License Shortage: There are no license shortages]({} "License Shortage Link")\n'.format(be_login_url)
 
     # Top five licenses by usage
     usage_dict = cssm_license.cssm_top_license_usage_dict()
+    if usage_dict==None:
+        usage_dict={}
     if len(usage_dict) > 0:
         msg = msg + '* [Top 5 Licenses By Consumption]({} "License Consumption Link")\n'.format(be_login_url)
         for accountName, virtualAccounts_dict in usage_dict.items():
@@ -496,6 +500,8 @@ def create_license_status_message(cssm_license):
 
     # Architecture mix summary.
     technology_dict = cssm_license.cssm_top_license_technology_dict()
+    if technology_dict==None:
+        technology_dict={}
     if len(technology_dict) > 0:
         logger.info('technology_dict: {}'.format(technology_dict))
         msg = msg + '* [Here is your architecture mix, by Account]({} "License Architecture Mix Link")\n'.format(be_login_url)
