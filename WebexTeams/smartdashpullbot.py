@@ -219,9 +219,9 @@ def smartdash_pullbot():
         return 'Ok'
 
     # For right now, limit responses only to the ASIC Team. Can be removed
-    if person_email not in allowed_emails:
-        logger.info("{}: person email: {}, not responded to.".format(date_time, person_email))
-        return 'Ok'
+    # if person_email not in allowed_emails:
+    #     logger.info("{}: person email: {}, not responded to.".format(date_time, person_email))
+    #     return 'Ok'
 
     # Verify the Request is from Webex Teams.
     raw = request.data

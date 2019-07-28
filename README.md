@@ -11,8 +11,8 @@ When discussing smart licensing, customers in general, and in particular Managed
 ## Proposed Solution
 
 The solution to this business challenge is the Smart Licensing Dashboard (SLD).  The SLD is composed of two main components:
-* The Smart Licensing Dashboard and 
-* The Smart Licensing Bot
+* The Smart Licensing Dashboard - Check it out [here](https://www.easysmartaccounts.com:10000/#/). 
+* The Smart Licensing Bot - Can be added to a Webex Teams Space.  Once you add it, just type help and you can start interacting with it.
 
 The Smart Licensing Dashboard first connects to Cisco’s Single Sign On service to get authenticated. Then we query our Smart Software Manager that runs in the Cisco Cloud for licensing data.   We cache this data in Redis to make the dashboard UI fast and more responsive.  The dashboard allows the user to select and view multiple Smart Accounts at once and filter based on the top 5 expired licenses.  Other filters based on customer's needs can be easily added. 
 
