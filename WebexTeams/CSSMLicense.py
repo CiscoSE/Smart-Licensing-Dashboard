@@ -37,7 +37,8 @@ def license_technology_architecture(technology_dict, row):
         architecture_dict = technology_dict[row['license']]
         return architecture_dict['architecture_1']
     else:
-        return "None"
+        logger.error('   missing architecture for license:  {}'.format(row['license']))
+        return "Uncategorized"
 
 """
 This function is meant to be used with Pandas Dataframes to calculate license utilization

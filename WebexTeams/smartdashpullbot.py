@@ -43,7 +43,7 @@ allowed_emails = ['timtayl@cisco.com', 'adaltrin@cisco.com', 'jdurkin@cisco.com'
 
 allowed_person_Org_Id = ['Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8xZWI2NWZkZi05NjQzLTQxN2YtOTk3NC1hZDcyY2FlMGUxMGY']
 
-logger.add("loguru_output", colorize=True, rotation="00:01")
+logger.add("./loguru/lg_output", colorize=True, rotation="00:01")
 
 # function that helps with decorator for logging in/out of functions/methods
 def logger_wraps(*, entry=True, exit=True, level="DEBUG"):
