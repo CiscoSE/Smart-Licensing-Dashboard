@@ -2,7 +2,7 @@
   "author": "William Kurkian <wkurkian@cisco.com>",
   "dependencies": {
     "@riophae/vue-treeselect": "^0.0.38",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chart.js": "^2.8.0",
     "date-fns": "^1.29.0",
     "eslint-plugin-prettier": "^3.1.0",
