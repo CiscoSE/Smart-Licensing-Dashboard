@@ -2389,9 +2389,9 @@ chartjs-color@^2.1.0:
     color-convert "^0.5.3"
 
 chartkick@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/chartkick/-/chartkick-3.1.1.tgz#c0ac91383f7c3a05dc67493b5c7f4a1469c87878"
-  integrity sha512-7M8VR99o0W0feas1HP/yc7pXnZElqNn2V6RMEU2TfYr/Emb5PMIL4GeuNbui8idaZ0en29cz5cbynuRcAFieDA==
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/chartkick/-/chartkick-3.2.1.tgz#a80c2005ae353c5ae011d0a756b6f592fc8fc7a9"
+  integrity sha512-zV0kUeZNqrX28AmPt10QEDXHKadbVFOTAFkCMyJifHzGFkKzGCDXxVR8orZ0fC1HbePzRn5w6kLCOVxDQbMUCg==
 
 check-types@^8.0.3:
   version "8.0.3"
